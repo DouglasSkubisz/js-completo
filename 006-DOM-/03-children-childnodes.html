@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste DOM</h1>
+   
+    
+    <div class="container">
+        <p>teste 1</p>
+        <p>lorem <a href="#"> link</a> .</p>
+        <p>teste 2</p>
+
+        <h2>lista</h2>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+                <ul>
+                <li>item 2.a</li>
+                <li>item 2.b</li>
+                <li>item 2.c</li>
+                </ul>
+            </li>
+            <li>item <a href="#">link</a></li>
+        </ul>
+    </div>
+
+    <script>
+
+        const link = document.querySelector("a")
+        const list = document.querySelector("ul ul")
+
+        console.log(link)
+
+        console.log(list.childNodes) // mostra tudo, inclusive os nós!
+        console.log(list.children) // mostra apenas o que é selecionado
+    </script>
+</body>
+</html>

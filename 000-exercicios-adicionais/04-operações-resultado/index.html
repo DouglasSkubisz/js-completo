@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>Exercicios JavaScript 4</h1>
+    </div>
+    <div class="box">
+        <p>Questão: Leia 2 números. Efetue as 4 operações matemáticas e mostre os resultados.</p>
+        <input type="number" class="num" id="numA" placeholder="digite um valor">
+        <br><br>
+        <input type="number" class="num" id="numB" placeholder="digite um valor">
+        <br><br>
+        <input type="radio" id="adicao" name="operation" value="adicao">
+        <label for="adicao">Adição</label>
+        <br><br>
+        <input type="radio" name="operation" id="subtracao" value="subtracao">
+        <label for="subtracao">Subtração</label>
+        <br><br>
+        <input type="radio" name="operation" id="multiplicacao" value="multiplicacao">
+        <label for="multiplicacao">multiplicação</label>
+        <br><br>
+        <input type="radio" name="operation" id="divisao" value="divisao">
+        <label for="divisao">Divisão</label>
+        <br><br>
+
+        <button onclick="enviar()">Enviar</button>
+        <p id="res"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
