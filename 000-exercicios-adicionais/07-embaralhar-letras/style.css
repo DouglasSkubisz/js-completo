@@ -10,7 +10,6 @@ body{
 }
 .box{
     background-color: rgba(0, 0, 0, 0.644);
-    position: absolute;
     padding: 20px;
     border-radius: 8px;
     color: white;
@@ -25,9 +24,9 @@ input{
     height: 400px;
 }
 .box2{
-    background-color: rgba(0, 0, 0, 0.644);
-    position: absolute;    
+    background-color: rgba(0, 0, 0, 0.644);   
     padding: 20px;
     border-radius: 8px;
     color: white;
+    margin: auto;
 }
