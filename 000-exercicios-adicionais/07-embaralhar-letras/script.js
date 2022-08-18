@@ -5,11 +5,8 @@ function processar(texto){
         resultado.innerHTML += teste[i]
         console.log(teste[i])
     }
-
 }
 function transformar(){
     let textArea = document.getElementById('textArea').value
     processar(textArea)
-
 }
-
