@@ -10,3 +10,6 @@ function transformar(){
     let textArea = document.getElementById('textArea').value
     processar(textArea)
 }
+function atualizar() {
+    location.reload()
+}

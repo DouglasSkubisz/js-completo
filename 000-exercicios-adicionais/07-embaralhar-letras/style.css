@@ -22,7 +22,7 @@ input{
     font-size: 15px;
     
 }
-#botao{
+#botao-t, #botao-a{
     cursor: pointer;
 }
 .box2{
