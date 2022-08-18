@@ -20,8 +20,10 @@ input{
     outline: none;
     border-radius: 6px;
     font-size: 15px;
-    width: 500px;
-    height: 400px;
+    
+}
+#botao{
+    cursor: pointer;
 }
 .box2{
     background-color: rgba(0, 0, 0, 0.644);   
