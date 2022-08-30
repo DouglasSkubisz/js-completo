@@ -1,3 +1,4 @@
+
 const arr = [10, 20, 30]
 const obj = {
     nome: "ana",

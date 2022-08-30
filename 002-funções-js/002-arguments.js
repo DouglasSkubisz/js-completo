@@ -1,4 +1,4 @@
-//somando todos os parametros através de um ay
+//somando todos os parametros através de um array
 
 /*
 function somar(arr){

@@ -9,28 +9,29 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="display" id="display"></div>
+        <div class="output">
+            <div data-result class="displayResult" id="display"></div>
+            <div data-calc class="displayCalc"> +30</div>
+        </div>
         <div class="calculator-buttons">
-            <button id="limparDisplay" onclick="clean()">AC</button>
-            <button id="limparCalculo">C</button>
-            <button id="backspace" onclick="backspace()">&lt&lt</button>
-            <button id="operadorDividir" onclick="inserir('/')">/</button>
-            <button id="tecla7" onclick="inserir('7')">7</button>
-            <button id="tecla8" onclick="inserir('8')">8</button>
-            <button id="tecla9" onclick="inserir('9')">9</button>
-            <button id="operadorMultiplicar" onclick="inserir('*')">x</button>
-            <button id="tecla4" onclick="inserir('4')">4</button>
-            <button id="tecla5" onclick="inserir('5')">5</button>
-            <button id="tecla6" onclick="inserir('6')">6</button>
-            <button id="operadorSubtrair" onclick="inserir('-')">-</button>
-            <button id="tecla1" onclick="inserir('1')">1</button>
-            <button id="tecla2" onclick="inserir('2')">2</button>
-            <button id="tecla3" onclick="inserir('3')">3</button>
-            <button id="operadorSomar" onclick="inserir('+')">+</button>
-            <button id="inverter">±</button> 
-            <button id="tecla0" onclick="inserir('0')">0</button>
-            <button id="decimal" onclick="inserir('.')">,</button>
-            <button id="igual" onclick="calcular()">=</button>
+            <button data-clean id="limparDisplay" class="spantwo" onclick="clean()">AC</button>
+            <button data-backspace id="del" onclick="backspace()">DEL</button>
+            <button data-operator id="operadorDividir" onclick="inserir('/')">/</button>
+            <button data-number id="tecla7" onclick="inserir('7')">7</button>
+            <button data-number id="tecla8" onclick="inserir('8')">8</button>
+            <button data-number id="tecla9" onclick="inserir('9')">9</button>
+            <button data-operator id="operadorMultiplicar" onclick="inserir('*')">x</button>
+            <button data-number id="tecla4" onclick="inserir('4')">4</button>
+            <button data-number id="tecla5" onclick="inserir('5')">5</button>
+            <button data-number id="tecla6" onclick="inserir('6')">6</button>
+            <button data-operator id="operadorSubtrair" onclick="inserir('-')">-</button>
+            <button data-number id="tecla1" onclick="inserir('1')">1</button>
+            <button data-number id="tecla2" onclick="inserir('2')">2</button>
+            <button data-number id="tecla3" onclick="inserir('3')">3</button>
+            <button data-operator id="operadorSomar" onclick="inserir('+')">+</button>            
+            <button data-number id="decimal" class="spantwo" onclick="inserir('.')">,</button>
+            <button data-number id="tecla0" onclick="inserir('0')">0</button>
+            <button data-equals id="igual" onclick="calcular()">=</button>
         </div>
     </div>
     <script src="calculadora.js"></script>

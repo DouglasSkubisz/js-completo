@@ -26,7 +26,9 @@ slice()     - retorna uma parte de um array existente;
 
 let arrayteste = [10, 'vinte', 30, '4k', 50]
 
-//  arrayteste.forEach(function(elemento, indice){console.log(elemento, indice)})
+//  arrayteste.forEach(function(elemento, indice){
+//      console.log(elemento, indice)})
+
 //  arrayteste.push('mil')
 //  arrayteste.pop()
 //  arrayteste.shift()
@@ -34,8 +36,7 @@ let arrayteste = [10, 'vinte', 30, '4k', 50]
 //  console.log(arrayteste.indexOf('vinte'))
 //  arrayteste.splice(0, 3)
 
-/*  arrayteste.slice(0,3)
-    let partearray = arrayteste.slice(0,3)
-    console.log(partearray)     */
+// let partearray = arrayteste.slice(0,3)
+// console.log(partearray)     
 
 console.log(arrayteste)

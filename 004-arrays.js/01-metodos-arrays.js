@@ -14,7 +14,7 @@ const arrFilter = arr.filter(function (element, index, _arr){
 })
 
 arr.forEach(function (element, index, _arr){
-    console.log(`${index} : ${element}     <- .forEach`)
+    console.log(`${index} : ${element}   <- .forEach`)
 })
 
 let arrTeste =[2,8,5]

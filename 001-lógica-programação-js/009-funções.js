@@ -21,3 +21,5 @@ function somar(n1,n2){
 }
 let soma = somar(3,5)
 console.log(soma)
+
+console.log(arrow())
